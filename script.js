@@ -37,8 +37,8 @@ else {
     alert("Eso es incorrecto D:");
 }
 if (UsuarioScore === 2 || UsuarioScore === 3 ) {
-    alert ("YOUWIN!! :D");
+    document.write ("YOUWIN!! :D");
 }
 else {
-    alert ("XD you lose");
+    document.write ("XD you lose");
 }
