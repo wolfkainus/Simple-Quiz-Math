@@ -6,7 +6,7 @@ if (Pregunta1 === "30") {
     alert ("Respuesta Correcta!!, es " + Pregunta1);
     Pregunta1 = parseInt(Pregunta1);
     //RespuestaTotal = RespuestaTotal + Pregunta1;
-    alert (RespuestaTotal);
+    //alert (RespuestaTotal);
     alert ("Tu puntaje es " + UsuarioScore );
 }
 else {
@@ -18,7 +18,7 @@ if (Pregunta2 === "15") {
     alert ("Respuesta Correcta!!, es " + Pregunta2);
     Pregunta2 = parseInt(Pregunta2);
     //RespuestaTotal = RespuestaTotal + Pregunta2;
-    alert (RespuestaTotal);
+    //alert (RespuestaTotal);
     alert ("Tu puntaje es " + UsuarioScore );
 }
 else {
@@ -30,13 +30,13 @@ if (Pregunta3 === "10") {
     alert ("Respuesta Correcta!!, es " + Pregunta3);
     Pregunta3 = parseInt(Pregunta3);
     //RespuestaTotal = RespuestaTotal + Pregunta3;
-    alert (RespuestaTotal);
+    //alert (RespuestaTotal);
     alert ("Tu puntaje es " + UsuarioScore );
 }
 else {
     alert("Eso es incorrecto D:");
 }
-if (UsuarioScore === 3) {
+if (UsuarioScore === 2 || UsuarioScore === 3 ) {
     alert ("YOUWIN!! :D");
 }
 else {
